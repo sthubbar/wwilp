@@ -1,9 +1,9 @@
 {
   "site": "landau",
   "n_top": 100,
-  "n_placed": 86,
+  "n_placed": 87,
   "n_unplaced_no_geocode": 0,
-  "n_unplaced_no_institution": 14,
+  "n_unplaced_no_institution": 13,
   "unplaced": [
     "#25 fadong zhang",
     "#34 David M. Potts",
@@ -11,7 +11,6 @@
     "#52 Runbo Li",
     "#59 Wolke, D.",
     "#61 Ritabrata Munshi",
-    "#67 Tristan Freiberg",
     "#71 Victor Volfson",
     "#72 Ayla Gafni",
     "#76 H. J. Weber",
@@ -23,8 +22,8 @@
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 86,
-      "drawn_count": 86,
+      "stated_count": 87,
+      "drawn_count": 87,
       "match": true,
       "names": [
         "Janos Pintz",
@@ -87,6 +86,7 @@
         "Roger C. Baker",
         "D. Marques",
         "Alexandru Zaharescu",
+        "Tristan Freiberg",
         "J. P. Keating",
         "Damaris Schindler",
         "Deshouillers, Jean-Marc",
@@ -113,12 +113,13 @@
         "Jie Wu",
         "Zhefeng Xu",
         "Timothy S. Trudgian"
-      ]
+      ],
+      "unplaced_no_geocode_in_region": 0
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 30,
-      "drawn_count": 30,
+      "stated_count": 31,
+      "drawn_count": 31,
       "match": true,
       "names": [
         "D. A. Goldston",
@@ -145,13 +146,15 @@
         "Robert J. Lemke Oliver",
         "Roger C. Baker",
         "Alexandru Zaharescu",
+        "Tristan Freiberg",
         "Jonathan Sorenson",
         "Montgomery, Hugh L.",
         "Kátai, Imre",
         "Alex V. Kontorovich",
         "Angel V. Kumchev",
         "Xuancheng Shao"
-      ]
+      ],
+      "unplaced_no_geocode_in_region": 0
     },
     {
       "file": "12_top100_europe.png",
@@ -189,7 +192,8 @@
         "Sárközy, A.",
         "D. R. Heath-Brown",
         "A. Perelli"
-      ]
+      ],
+      "unplaced_no_geocode_in_region": 0
     },
     {
       "file": "13_top100_asia.png",
@@ -220,7 +224,8 @@
         "Jie Wu",
         "Zhefeng Xu",
         "Timothy S. Trudgian"
-      ]
+      ],
+      "unplaced_no_geocode_in_region": 0
     },
     {
       "file": "14_top100_other.png",
@@ -231,11 +236,12 @@
         "Florian Luca",
         "D. Marques",
         "German Sierra"
-      ]
+      ],
+      "unplaced_no_geocode_in_region": 0
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 64,
+    "legacy_gb_cache": 65,
     "openalex": 22
   }
 }
