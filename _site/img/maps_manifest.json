@@ -1,6 +1,9 @@
 {
   "site": "landau",
   "n_top": 100,
+  "n_placed": 86,
+  "n_unplaced_no_geocode": 0,
+  "n_unplaced_no_institution": 14,
   "unplaced": [
     "#25 fadong zhang",
     "#34 David M. Potts",
@@ -230,5 +233,9 @@
         "German Sierra"
       ]
     }
-  ]
+  ],
+  "geocode_sources": {
+    "legacy_gb_cache": 64,
+    "openalex": 22
+  }
 }
