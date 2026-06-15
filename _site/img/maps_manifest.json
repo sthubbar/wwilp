@@ -7,18 +7,18 @@
   "unplaced": [
     "#25 fadong zhang",
     "#36 David M. Potts",
-    "#47 Christopher Pompetzki",
-    "#51 Runbo Li",
-    "#52 Wolke, D.",
-    "#62 Ritabrata Munshi",
-    "#72 Ayla Gafni",
-    "#74 Victor Volfson",
-    "#77 H. J. Weber",
-    "#78 Felix Sidokhine",
-    "#80 Liu, Zhixin",
-    "#82 Suryanarayana, D.",
-    "#99 Sho Tanimoto",
-    "#100 Christian Bernert"
+    "#46 Christopher Pompetzki",
+    "#50 Runbo Li",
+    "#51 Wolke, D.",
+    "#61 Ritabrata Munshi",
+    "#71 Ayla Gafni",
+    "#73 Victor Volfson",
+    "#76 H. J. Weber",
+    "#77 Felix Sidokhine",
+    "#79 Liu, Zhixin",
+    "#81 Suryanarayana, D.",
+    "#98 Sho Tanimoto",
+    "#99 Christian Bernert"
   ],
   "maps": [
     {
@@ -61,7 +61,6 @@
         "Joni Teräväinen",
         "Vaughan, R. C.",
         "Tim Browning",
-        "Yoichi Motohashi",
         "Clifford Keeble",
         "Min Zhang",
         "Trevor D. Wooley",
@@ -112,7 +111,8 @@
         "Adrian W. Dudek",
         "Jie Wu",
         "Zhefeng Xu",
-        "Valeriia Starichkova"
+        "Valeriia Starichkova",
+        "Timothy S. Trudgian"
       ],
       "unplaced_no_geocode_in_region": 0
     },
@@ -158,8 +158,8 @@
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 30,
-      "drawn_count": 30,
+      "stated_count": 29,
+      "drawn_count": 29,
       "match": true,
       "names": [
         "Janos Pintz",
@@ -175,7 +175,6 @@
         "Kaisa Matomäki",
         "Joni Teräväinen",
         "Tim Browning",
-        "Yoichi Motohashi",
         "Clifford Keeble",
         "Cem Yalcin Yildirim",
         "Fouvry, E.",
@@ -197,8 +196,8 @@
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 22,
-      "drawn_count": 22,
+      "stated_count": 23,
+      "drawn_count": 23,
       "match": true,
       "names": [
         "Jiamin Li",
@@ -222,7 +221,8 @@
         "Adrian W. Dudek",
         "Jie Wu",
         "Zhefeng Xu",
-        "Valeriia Starichkova"
+        "Valeriia Starichkova",
+        "Timothy S. Trudgian"
       ],
       "unplaced_no_geocode_in_region": 0
     },
