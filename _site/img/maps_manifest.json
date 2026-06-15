@@ -1,32 +1,28 @@
 {
   "site": "landau",
   "n_top": 100,
-  "n_placed": 84,
-  "n_unplaced_no_geocode": 2,
-  "n_unplaced_no_institution": 14,
+  "n_placed": 88,
+  "n_unplaced_no_geocode": 12,
+  "n_unplaced_no_institution": 0,
   "unplaced": [
+    "#14 Henryk Iwaniec [Rutgers University]",
     "#30 Tsz Ho Chan [Kennesaw State University]",
+    "#40 Min Zhang [Beijing Information Science and Technology University]",
+    "#42 Tianze Wang [Henan Academy of Sciences]",
+    "#50 Wolke, D. [University of Freiburg]",
+    "#59 Victor Volfson [-]",
+    "#60 David M. Potts [-]",
+    "#69 Suryanarayana, D. [Andhra University]",
+    "#72 Felix Sidokhine [-]",
+    "#74 Christopher Pompetzki [-]",
     "#82 Jie Wu [Institut Elie Cartan de Lorraine, CNRS]",
-    "#27 Runbo Li",
-    "#38 Ritabrata Munshi",
-    "#50 Wolke, D.",
-    "#59 Victor Volfson",
-    "#60 David M. Potts",
-    "#61 Ayla Gafni",
-    "#69 Suryanarayana, D.",
-    "#71 H. J. Weber",
-    "#72 Felix Sidokhine",
-    "#74 Christopher Pompetzki",
-    "#85 Sho Tanimoto",
-    "#95 Pan, Chengdong",
-    "#98 Amos Voron",
-    "#99 Christian Bernert"
+    "#98 Amos Voron [-]"
   ],
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 84,
-      "drawn_count": 84,
+      "stated_count": 88,
+      "drawn_count": 88,
       "match": true,
       "names": [
         "Janos Pintz",
@@ -42,7 +38,6 @@
         "Heath-Brown, D. R.",
         "Harman, G.",
         "Stephan Baier",
-        "Henryk Iwaniec",
         "Kevin Ford",
         "John B. Friedlander",
         "Murty, M. Ram",
@@ -55,6 +50,7 @@
         "Elliott, P. D. T. A.",
         "Yoichi Motohashi",
         "Trevor D. Wooley",
+        "Runbo Li",
         "Yingchun Cai",
         "William D. Banks",
         "Vaughan, R. C.",
@@ -64,10 +60,9 @@
         "Will Sawin",
         "Igor E. Shparlinski",
         "Jinjiang Li",
+        "Ritabrata Munshi",
         "Fouvry, E.",
-        "Min Zhang",
         "Robert J. Lemke Oliver",
-        "Tianze Wang",
         "Ben Green",
         "K. Soundararajan",
         "Kathrin Bringmann",
@@ -83,6 +78,7 @@
         "J. Brüdern",
         "Roger C. Baker",
         "Sárközy, A.",
+        "Ayla Gafni",
         "Kátai, Imre",
         "Clifford Keeble",
         "Alexandru Zaharescu",
@@ -91,6 +87,7 @@
         "Hongze Li",
         "Lasse Grimmelt",
         "Frank Vega",
+        "H. J. Weber",
         "A. Perelli",
         "D. R. Heath-Brown",
         "H. A. Helfgott",
@@ -101,6 +98,7 @@
         "Deshouillers, Jean-Marc",
         "Valeriia Starichkova",
         "Montgomery, Hugh L.",
+        "Sho Tanimoto",
         "Jose I. Latorre",
         "Alex V. Kontorovich",
         "German Sierra",
@@ -110,16 +108,18 @@
         "Lü, Guangshi",
         "Zhefeng Xu",
         "Zhixin Liu",
+        "Pan, Chengdong",
         "Xuancheng Shao",
         "Elsholtz, Christian",
+        "Christian Bernert",
         "Nicolas, J. L."
       ],
-      "unplaced_no_geocode_in_region": 2
+      "unplaced_no_geocode_in_region": 12
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 30,
-      "drawn_count": 30,
+      "stated_count": 33,
+      "drawn_count": 33,
       "match": true,
       "names": [
         "D. A. Goldston",
@@ -132,6 +132,7 @@
         "Carl Pomerance",
         "Elliott, P. D. T. A.",
         "Trevor D. Wooley",
+        "Runbo Li",
         "William D. Banks",
         "Vaughan, R. C.",
         "Vivian Kuperberg",
@@ -143,17 +144,19 @@
         "Francisco Bustillos Morales",
         "Diamond, Harold G.",
         "Roger C. Baker",
+        "Ayla Gafni",
         "Kátai, Imre",
         "Alexandru Zaharescu",
         "Jonathan Sorenson",
         "Frank Vega",
+        "H. J. Weber",
         "Angel V. Kumchev",
         "Montgomery, Hugh L.",
         "Alex V. Kontorovich",
         "David Lowry-Duda",
         "Xuancheng Shao"
       ],
-      "unplaced_no_geocode_in_region": 1
+      "unplaced_no_geocode_in_region": 2
     },
     {
       "file": "12_top100_europe.png",
@@ -169,7 +172,6 @@
         "Jan Moser",
         "Heath-Brown, D. R.",
         "Harman, G.",
-        "Henryk Iwaniec",
         "Kaisa Matomäki",
         "Tim Browning",
         "Joni Teräväinen",
@@ -192,14 +194,15 @@
         "Deshouillers, Jean-Marc",
         "Ramaré, Olivier",
         "Elsholtz, Christian",
+        "Christian Bernert",
         "Nicolas, J. L."
       ],
-      "unplaced_no_geocode_in_region": 1
+      "unplaced_no_geocode_in_region": 3
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 19,
-      "drawn_count": 19,
+      "stated_count": 20,
+      "drawn_count": 20,
       "match": true,
       "names": [
         "Stephan Baier",
@@ -207,8 +210,7 @@
         "Jianya Liu",
         "Igor E. Shparlinski",
         "Jinjiang Li",
-        "Min Zhang",
-        "Tianze Wang",
+        "Ritabrata Munshi",
         "Daniel R. Johnston",
         "Apoloniusz Tyszka",
         "Hongze Li",
@@ -216,13 +218,15 @@
         "Hao Pan",
         "Ben Kane",
         "Valeriia Starichkova",
+        "Sho Tanimoto",
         "Jose I. Latorre",
         "Adrian W. Dudek",
         "Lü, Guangshi",
         "Zhefeng Xu",
-        "Zhixin Liu"
+        "Zhixin Liu",
+        "Pan, Chengdong"
       ],
-      "unplaced_no_geocode_in_region": 0
+      "unplaced_no_geocode_in_region": 3
     },
     {
       "file": "14_top100_other.png",
@@ -234,11 +238,11 @@
         "D. Marques",
         "German Sierra"
       ],
-      "unplaced_no_geocode_in_region": 0
+      "unplaced_no_geocode_in_region": 4
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 67,
-    "openalex": 17
+    "legacy_gb_cache": 74,
+    "openalex": 14
   }
 }
