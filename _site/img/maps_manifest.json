@@ -9,14 +9,14 @@
     "#30 Tsz Ho Chan [Kennesaw State University]",
     "#40 Min Zhang [Beijing Information Science and Technology University]",
     "#42 Tianze Wang [Henan Academy of Sciences]",
-    "#50 Wolke, D. [University of Freiburg]",
+    "#51 Wolke, D. [University of Freiburg]",
     "#59 Victor Volfson [-]",
     "#60 David M. Potts [-]",
     "#69 Suryanarayana, D. [Andhra University]",
     "#72 Felix Sidokhine [-]",
-    "#74 Christopher Pompetzki [-]",
     "#82 Jie Wu [Institut Elie Cartan de Lorraine, CNRS]",
-    "#98 Amos Voron [-]"
+    "#94 Amos Voron [-]",
+    "#96 Samuel Victor Miño Arnoso [-]"
   ],
   "maps": [
     {
@@ -47,12 +47,12 @@
         "Tim Browning",
         "Joni Teräväinen",
         "Tenenbaum, Gérald",
-        "Elliott, P. D. T. A.",
         "Yoichi Motohashi",
+        "Elliott, P. D. T. A.",
         "Trevor D. Wooley",
         "Runbo Li",
-        "Yingchun Cai",
         "William D. Banks",
+        "Yingchun Cai",
         "Vaughan, R. C.",
         "Cem Yalcin Yildirim",
         "Vivian Kuperberg",
@@ -67,22 +67,22 @@
         "K. Soundararajan",
         "Kathrin Bringmann",
         "D. Marques",
-        "Daniel R. Johnston",
         "Tristan Freiberg",
+        "Daniel R. Johnston",
         "Andrew Granville",
         "Francisco Bustillos Morales",
-        "Jori Merikoski",
         "J. P. Keating",
-        "Diamond, Harold G.",
+        "Jori Merikoski",
         "Apoloniusz Tyszka",
+        "Diamond, Harold G.",
         "J. Brüdern",
         "Roger C. Baker",
         "Sárközy, A.",
         "Ayla Gafni",
-        "Kátai, Imre",
         "Clifford Keeble",
-        "Alexandru Zaharescu",
+        "Kátai, Imre",
         "Damaris Schindler",
+        "Alexandru Zaharescu",
         "Jonathan Sorenson",
         "Hongze Li",
         "Lasse Grimmelt",
@@ -96,30 +96,30 @@
         "Hao Pan",
         "Ben Kane",
         "Deshouillers, Jean-Marc",
+        "Jose I. Latorre",
         "Valeriia Starichkova",
         "Montgomery, Hugh L.",
-        "Sho Tanimoto",
-        "Jose I. Latorre",
-        "Alex V. Kontorovich",
         "German Sierra",
+        "Sho Tanimoto",
+        "Alex V. Kontorovich",
         "Ramaré, Olivier",
         "Adrian W. Dudek",
         "David Lowry-Duda",
-        "Lü, Guangshi",
         "Zhefeng Xu",
+        "Lü, Guangshi",
         "Zhixin Liu",
-        "Pan, Chengdong",
-        "Xuancheng Shao",
         "Elsholtz, Christian",
+        "Xuancheng Shao",
+        "Nicolas, J. L.",
         "Christian Bernert",
-        "Nicolas, J. L."
+        "Hildebrand, Adolf"
       ],
       "unplaced_no_geocode_in_region": 12
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 33,
-      "drawn_count": 33,
+      "stated_count": 34,
+      "drawn_count": 34,
       "match": true,
       "names": [
         "D. A. Goldston",
@@ -154,7 +154,8 @@
         "Montgomery, Hugh L.",
         "Alex V. Kontorovich",
         "David Lowry-Duda",
-        "Xuancheng Shao"
+        "Xuancheng Shao",
+        "Hildebrand, Adolf"
       ],
       "unplaced_no_geocode_in_region": 2
     },
@@ -181,8 +182,8 @@
         "Fouvry, E.",
         "Ben Green",
         "Kathrin Bringmann",
-        "Jori Merikoski",
         "J. P. Keating",
+        "Jori Merikoski",
         "J. Brüdern",
         "Sárközy, A.",
         "Clifford Keeble",
@@ -194,15 +195,15 @@
         "Deshouillers, Jean-Marc",
         "Ramaré, Olivier",
         "Elsholtz, Christian",
-        "Christian Bernert",
-        "Nicolas, J. L."
+        "Nicolas, J. L.",
+        "Christian Bernert"
       ],
       "unplaced_no_geocode_in_region": 3
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 20,
-      "drawn_count": 20,
+      "stated_count": 19,
+      "drawn_count": 19,
       "match": true,
       "names": [
         "Stephan Baier",
@@ -217,14 +218,13 @@
         "Jia, Chao Hua",
         "Hao Pan",
         "Ben Kane",
+        "Jose I. Latorre",
         "Valeriia Starichkova",
         "Sho Tanimoto",
-        "Jose I. Latorre",
         "Adrian W. Dudek",
-        "Lü, Guangshi",
         "Zhefeng Xu",
-        "Zhixin Liu",
-        "Pan, Chengdong"
+        "Lü, Guangshi",
+        "Zhixin Liu"
       ],
       "unplaced_no_geocode_in_region": 3
     },
@@ -238,7 +238,7 @@
         "D. Marques",
         "German Sierra"
       ],
-      "unplaced_no_geocode_in_region": 4
+      "unplaced_no_geocode_in_region": 0
     }
   ],
   "geocode_sources": {
