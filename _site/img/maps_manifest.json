@@ -1,28 +1,24 @@
 {
   "site": "landau",
   "n_top": 100,
-  "n_placed": 88,
-  "n_unplaced_no_geocode": 12,
+  "n_placed": 92,
+  "n_unplaced_no_geocode": 8,
   "n_unplaced_no_institution": 0,
   "unplaced": [
-    "#14 Henryk Iwaniec [Rutgers University]",
     "#30 Tsz Ho Chan [Kennesaw State University]",
-    "#40 Min Zhang [Beijing Information Science and Technology University]",
-    "#42 Tianze Wang [Henan Academy of Sciences]",
     "#51 Wolke, D. [University of Freiburg]",
     "#59 Victor Volfson [-]",
     "#60 David M. Potts [-]",
     "#69 Suryanarayana, D. [Andhra University]",
     "#72 Felix Sidokhine [-]",
-    "#82 Jie Wu [Institut Elie Cartan de Lorraine, CNRS]",
     "#94 Amos Voron [-]",
     "#96 Samuel Victor Miño Arnoso [-]"
   ],
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 88,
-      "drawn_count": 88,
+      "stated_count": 92,
+      "drawn_count": 92,
       "match": true,
       "names": [
         "Janos Pintz",
@@ -38,6 +34,7 @@
         "Heath-Brown, D. R.",
         "Harman, G.",
         "Stephan Baier",
+        "Henryk Iwaniec",
         "Kevin Ford",
         "John B. Friedlander",
         "Murty, M. Ram",
@@ -62,7 +59,9 @@
         "Jinjiang Li",
         "Ritabrata Munshi",
         "Fouvry, E.",
+        "Min Zhang",
         "Robert J. Lemke Oliver",
+        "Tianze Wang",
         "Ben Green",
         "K. Soundararajan",
         "Kathrin Bringmann",
@@ -97,6 +96,7 @@
         "Ben Kane",
         "Deshouillers, Jean-Marc",
         "Jose I. Latorre",
+        "Jie Wu",
         "Valeriia Starichkova",
         "Montgomery, Hugh L.",
         "German Sierra",
@@ -114,17 +114,18 @@
         "Christian Bernert",
         "Hildebrand, Adolf"
       ],
-      "unplaced_no_geocode_in_region": 12
+      "unplaced_no_geocode_in_region": 8
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 34,
-      "drawn_count": 34,
+      "stated_count": 35,
+      "drawn_count": 35,
       "match": true,
       "names": [
         "D. A. Goldston",
         "Terence Tao",
         "Jared Duker Lichtman",
+        "Henryk Iwaniec",
         "Kevin Ford",
         "John B. Friedlander",
         "Murty, M. Ram",
@@ -157,12 +158,12 @@
         "Xuancheng Shao",
         "Hildebrand, Adolf"
       ],
-      "unplaced_no_geocode_in_region": 2
+      "unplaced_no_geocode_in_region": 1
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 32,
-      "drawn_count": 32,
+      "stated_count": 33,
+      "drawn_count": 33,
       "match": true,
       "names": [
         "Janos Pintz",
@@ -193,17 +194,18 @@
         "D. R. Heath-Brown",
         "H. A. Helfgott",
         "Deshouillers, Jean-Marc",
+        "Jie Wu",
         "Ramaré, Olivier",
         "Elsholtz, Christian",
         "Nicolas, J. L.",
         "Christian Bernert"
       ],
-      "unplaced_no_geocode_in_region": 3
+      "unplaced_no_geocode_in_region": 2
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 19,
-      "drawn_count": 19,
+      "stated_count": 21,
+      "drawn_count": 21,
       "match": true,
       "names": [
         "Stephan Baier",
@@ -212,6 +214,8 @@
         "Igor E. Shparlinski",
         "Jinjiang Li",
         "Ritabrata Munshi",
+        "Min Zhang",
+        "Tianze Wang",
         "Daniel R. Johnston",
         "Apoloniusz Tyszka",
         "Hongze Li",
@@ -226,7 +230,7 @@
         "Lü, Guangshi",
         "Zhixin Liu"
       ],
-      "unplaced_no_geocode_in_region": 3
+      "unplaced_no_geocode_in_region": 1
     },
     {
       "file": "14_top100_other.png",
@@ -242,7 +246,8 @@
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 74,
-    "openalex": 14
+    "legacy_gb_cache": 73,
+    "openalex": 14,
+    "verified:2026-06-15(Claude,web; main campus)": 5
   }
 }
