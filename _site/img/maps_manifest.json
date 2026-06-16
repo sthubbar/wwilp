@@ -5,14 +5,14 @@
   "n_unplaced_no_geocode": 8,
   "n_unplaced_no_institution": 0,
   "unplaced": [
-    "#29 Tsz Ho Chan [Kennesaw State University]",
-    "#50 Dieter Wolke [University of Freiburg]",
-    "#58 Victor Volfson [-]",
-    "#59 David M. Potts [-]",
-    "#68 D. Suryanarayana [Andhra University]",
-    "#71 Felix Sidokhine [-]",
-    "#93 Amos Voron [-]",
-    "#95 Samuel Victor Miño Arnoso [-]"
+    "#30 Tsz Ho Chan [Kennesaw State University]",
+    "#51 Dieter Wolke [University of Freiburg]",
+    "#59 Victor Volfson [-]",
+    "#60 David M. Potts [-]",
+    "#69 D. Suryanarayana [Andhra University]",
+    "#72 Felix Sidokhine [-]",
+    "#94 Amos Voron [-]",
+    "#96 Samuel Victor Miño Arnoso [-]"
   ],
   "maps": [
     {
@@ -31,6 +31,7 @@
         "Florian Luca",
         "James Maynard",
         "Jan Moser",
+        "D. R. Heath-Brown",
         "Glyn Harman",
         "Stephan Baier",
         "Henryk Iwaniec",
@@ -111,15 +112,14 @@
         "Xuancheng Shao",
         "Jean-Louis Nicolas",
         "Christian Bernert",
-        "Adolf Hildebrand",
-        "Cameron L. Stewart"
+        "Adolf Hildebrand"
       ],
       "unplaced_no_geocode_in_region": 8
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 36,
-      "drawn_count": 36,
+      "stated_count": 35,
+      "drawn_count": 35,
       "match": true,
       "names": [
         "D. A. Goldston",
@@ -156,15 +156,14 @@
         "Alex Kontorovich",
         "David Lowry-Duda",
         "Xuancheng Shao",
-        "Adolf Hildebrand",
-        "Cameron L. Stewart"
+        "Adolf Hildebrand"
       ],
       "unplaced_no_geocode_in_region": 1
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 32,
-      "drawn_count": 32,
+      "stated_count": 33,
+      "drawn_count": 33,
       "match": true,
       "names": [
         "Janos Pintz",
@@ -173,6 +172,7 @@
         "Marek Wolf",
         "James Maynard",
         "Jan Moser",
+        "D. R. Heath-Brown",
         "Glyn Harman",
         "Kaisa Matomäki",
         "Tim Browning",
