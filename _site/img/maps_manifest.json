@@ -5,14 +5,14 @@
   "n_unplaced_no_geocode": 8,
   "n_unplaced_no_institution": 0,
   "unplaced": [
-    "#30 Tsz Ho Chan [Kennesaw State University]",
-    "#51 Dieter Wolke [University of Freiburg]",
-    "#59 Victor Volfson [-]",
-    "#60 David M. Potts [-]",
-    "#69 D. Suryanarayana [Andhra University]",
-    "#72 Felix Sidokhine [-]",
-    "#94 Amos Voron [-]",
-    "#96 Samuel Victor Miño Arnoso [-]"
+    "#29 Tsz Ho Chan [Kennesaw State University]",
+    "#50 Dieter Wolke [University of Freiburg]",
+    "#58 Victor Volfson [-]",
+    "#59 David M. Potts [-]",
+    "#68 D. Suryanarayana [Andhra University]",
+    "#71 Felix Sidokhine [-]",
+    "#93 Amos Voron [-]",
+    "#95 Samuel Victor Miño Arnoso [-]"
   ],
   "maps": [
     {
@@ -31,12 +31,11 @@
         "Florian Luca",
         "James Maynard",
         "Jan Moser",
-        "D. R. Heath-Brown",
         "Glyn Harman",
         "Stephan Baier",
         "Henryk Iwaniec",
         "Kevin Ford",
-        "John Friedlander",
+        "John B. Friedlander",
         "M. Ram Murty",
         "Paul Pollack",
         "Kaisa Matomäki",
@@ -75,7 +74,7 @@
         "Apoloniusz Tyszka",
         "Harold G. Diamond",
         "Jörg Brüdern",
-        "Roger Baker",
+        "Roger C. Baker",
         "András Sárközy",
         "Ayla Gafni",
         "Clifford Keeble",
@@ -112,14 +111,15 @@
         "Xuancheng Shao",
         "Jean-Louis Nicolas",
         "Christian Bernert",
-        "Adolf Hildebrand"
+        "Adolf Hildebrand",
+        "Cameron L. Stewart"
       ],
       "unplaced_no_geocode_in_region": 8
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 35,
-      "drawn_count": 35,
+      "stated_count": 36,
+      "drawn_count": 36,
       "match": true,
       "names": [
         "D. A. Goldston",
@@ -127,7 +127,7 @@
         "Jared Duker Lichtman",
         "Henryk Iwaniec",
         "Kevin Ford",
-        "John Friedlander",
+        "John B. Friedlander",
         "M. Ram Murty",
         "Paul Pollack",
         "Carl Pomerance",
@@ -144,7 +144,7 @@
         "Andrew Granville",
         "Frank Morales",
         "Harold G. Diamond",
-        "Roger Baker",
+        "Roger C. Baker",
         "Ayla Gafni",
         "Imre Kátai",
         "Alexandru Zaharescu",
@@ -156,14 +156,15 @@
         "Alex Kontorovich",
         "David Lowry-Duda",
         "Xuancheng Shao",
-        "Adolf Hildebrand"
+        "Adolf Hildebrand",
+        "Cameron L. Stewart"
       ],
       "unplaced_no_geocode_in_region": 1
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 33,
-      "drawn_count": 33,
+      "stated_count": 32,
+      "drawn_count": 32,
       "match": true,
       "names": [
         "Janos Pintz",
@@ -172,7 +173,6 @@
         "Marek Wolf",
         "James Maynard",
         "Jan Moser",
-        "D. R. Heath-Brown",
         "Glyn Harman",
         "Kaisa Matomäki",
         "Tim Browning",
