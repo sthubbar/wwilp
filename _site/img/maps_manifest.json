@@ -1,14 +1,13 @@
 {
   "site": "landau",
   "n_top": 100,
-  "n_placed": 91,
-  "n_unplaced_no_geocode": 9,
+  "n_placed": 92,
+  "n_unplaced_no_geocode": 8,
   "n_unplaced_no_institution": 0,
   "unplaced": [
     "#31 David M. Potts [-]",
     "#32 Andrea Corazza [-]",
     "#34 Victor Volfson [-]",
-    "#40 Dieter Wolke [University of Freiburg]",
     "#44 Tsz Ho Chan [Kennesaw State University]",
     "#46 Gheorghe Robert Cîmpeanu [-]",
     "#66 D. Suryanarayana [Andhra University]",
@@ -18,8 +17,8 @@
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 91,
-      "drawn_count": 91,
+      "stated_count": 92,
+      "drawn_count": 92,
       "match": true,
       "names": [
         "Janos Pintz",
@@ -58,6 +57,7 @@
         "Tianze Wang",
         "Clifford Keeble",
         "Jinjiang Li",
+        "Dieter Wolke",
         "William D. Banks",
         "Min Zhang",
         "Runbo Li",
@@ -114,7 +114,7 @@
         "Sho Tanimoto",
         "Alex Kontorovich"
       ],
-      "unplaced_no_geocode_in_region": 9
+      "unplaced_no_geocode_in_region": 8
     },
     {
       "file": "11_top100_north_america.png",
@@ -160,8 +160,8 @@
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 33,
-      "drawn_count": 33,
+      "stated_count": 34,
+      "drawn_count": 34,
       "match": true,
       "names": [
         "Janos Pintz",
@@ -178,6 +178,7 @@
         "Etienne Fouvry",
         "Joni Teräväinen",
         "Clifford Keeble",
+        "Dieter Wolke",
         "C. Y. Yildirim",
         "András Sárközy",
         "Ben Green",
@@ -198,7 +199,7 @@
         "Christian Elsholtz",
         "Jean-Louis Nicolas"
       ],
-      "unplaced_no_geocode_in_region": 1
+      "unplaced_no_geocode_in_region": 0
     },
     {
       "file": "13_top100_asia.png",
@@ -247,6 +248,7 @@
   "geocode_sources": {
     "legacy_gb_cache": 72,
     "openalex": 14,
-    "verified:2026-06-15(Claude,web; main campus)": 5
+    "verified:2026-06-15(Claude,web; main campus)": 5,
+    "manual:wikipedia-coords 2026-06-19": 1
   }
 }
