@@ -1,24 +1,21 @@
 {
   "site": "landau",
   "n_top": 100,
-  "n_placed": 92,
-  "n_unplaced_no_geocode": 8,
+  "n_placed": 95,
+  "n_unplaced_no_geocode": 5,
   "n_unplaced_no_institution": 0,
   "unplaced": [
     "#31 David M. Potts [-]",
     "#32 Andrea Corazza [-]",
     "#34 Victor Volfson [-]",
-    "#44 Tsz Ho Chan [Kennesaw State University]",
     "#46 Gheorghe Robert Cîmpeanu [-]",
-    "#66 D. Suryanarayana [Andhra University]",
-    "#87 Felix Sidokhine [-]",
-    "#94 Tian-Qing Cao [Beijing University of Posts and Telecommunications]"
+    "#87 Felix Sidokhine [-]"
   ],
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 92,
-      "drawn_count": 92,
+      "stated_count": 95,
+      "drawn_count": 95,
       "match": true,
       "names": [
         "Janos Pintz",
@@ -61,6 +58,7 @@
         "William D. Banks",
         "Min Zhang",
         "Runbo Li",
+        "Tsz Ho Chan",
         "C. Y. Yildirim",
         "Harold G. Diamond",
         "Andrew Granville",
@@ -81,6 +79,7 @@
         "Tristan Freiberg",
         "Daniel R. Johnston",
         "Roger C. Baker",
+        "D. Suryanarayana",
         "J. P. Keating",
         "Jori Merikoski",
         "Chaohua Jia",
@@ -107,6 +106,7 @@
         "Christian Elsholtz",
         "Jean-Louis Nicolas",
         "Ben Kane",
+        "Tian-Qing Cao",
         "Adolf Hildebrand",
         "Cameron L. Stewart",
         "Valeriia Starichkova",
@@ -114,7 +114,7 @@
         "Sho Tanimoto",
         "Alex Kontorovich"
       ],
-      "unplaced_no_geocode_in_region": 8
+      "unplaced_no_geocode_in_region": 5
     },
     {
       "file": "11_top100_north_america.png",
@@ -134,10 +134,10 @@
         "Kevin Ford",
         "Jared Duker Lichtman",
         "R. C. Vaughan",
-        "Frank Vega",
         "Carl Pomerance",
         "William D. Banks",
         "Runbo Li",
+        "Tsz Ho Chan",
         "Harold G. Diamond",
         "Andrew Granville",
         "Vivian Kuperberg",
@@ -160,8 +160,8 @@
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 34,
-      "drawn_count": 34,
+      "stated_count": 35,
+      "drawn_count": 35,
       "match": true,
       "names": [
         "Janos Pintz",
@@ -174,6 +174,7 @@
         "Marek Wolf",
         "Kaisa Matomäki",
         "Jan Moser",
+        "Frank Vega",
         "Yoichi Motohashi",
         "Etienne Fouvry",
         "Joni Teräväinen",
@@ -199,12 +200,12 @@
         "Christian Elsholtz",
         "Jean-Louis Nicolas"
       ],
-      "unplaced_no_geocode_in_region": 0
+      "unplaced_no_geocode_in_region": 1
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 21,
-      "drawn_count": 21,
+      "stated_count": 23,
+      "drawn_count": 23,
       "match": true,
       "names": [
         "Apoloniusz Tyszka",
@@ -219,17 +220,19 @@
         "Ritabrata Munshi",
         "Hongze Li",
         "Daniel R. Johnston",
+        "D. Suryanarayana",
         "Chaohua Jia",
         "Hao Pan",
         "Guangshi Lu",
         "Zhixin Liu",
         "Zhefeng Xu",
         "Ben Kane",
+        "Tian-Qing Cao",
         "Valeriia Starichkova",
         "Wenguang Zhai",
         "Sho Tanimoto"
       ],
-      "unplaced_no_geocode_in_region": 2
+      "unplaced_no_geocode_in_region": 0
     },
     {
       "file": "14_top100_other.png",
@@ -249,6 +252,7 @@
     "legacy_gb_cache": 72,
     "openalex": 14,
     "verified:2026-06-15(Claude,web; main campus)": 5,
-    "manual:wikipedia-coords 2026-06-19": 1
+    "manual:wikipedia-coords 2026-06-19": 1,
+    "verified:2026-06-20(Claude,web)": 3
   }
 }
