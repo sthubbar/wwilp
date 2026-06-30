@@ -1,6 +1,6 @@
 rank,name,name_ascii,institution,country,arxiv_rank,openalex_rank,zbmath_rank,arxiv_papers,openalex_works,openalex_citations,zbmath_papers,overall_h_index,h_index_source,first_active_year,last_active_year,birth_year,doctoral_advisor,orcid,wikidata_id
 1,Janos Pintz,Janos Pintz,Alfréd Rényi Institute of Mathematics,HU,1,6,2,26,63,1281,,26,openalex,1985,1985,,,,
-2,Jan Moser,Jan Moser,Comenius University Bratislava,SK,3,20,,9,30,124,,10,openalex,2015,2015,,,,
+2,Ján Mózer,Jan Mozer,Comenius University Bratislava,SK,3,20,,9,30,124,,10,openalex,1972,2023,,,,
 3,Daniel A. Goldston,Daniel A. Goldston,San Jose State University,US,,9,,,45,635,,21,openalex,1984,2022,,,,
 4,Terence Tao,Terence Tao,"University of California, Los Angeles",US,,11,,,36,1870,,101,openalex,2004,2026,,,,
 5,Alessandro Zaccagnini,Alessandro Zaccagnini,University of Parma,IT,5,,18,13,12,73,,14,openalex,2007,2026,,,,
