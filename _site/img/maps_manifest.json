@@ -1,21 +1,19 @@
 {
   "site": "landau",
   "n_top": 100,
-  "n_placed": 95,
-  "n_unplaced_no_geocode": 5,
+  "n_placed": 97,
+  "n_unplaced_no_geocode": 3,
   "n_unplaced_no_institution": 0,
   "unplaced": [
     "#63 Jean Lelis [Federal University of Uberlândia]",
-    "#72 Soumyarup Banerjee [Indian Institute of Technology Bhubaneswar]",
-    "#76 Joshua Males [University of Manitoba]",
     "#86 Felix Sidokhine [-]",
     "#93 Fred B. Holt [NA]"
   ],
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 95,
-      "drawn_count": 95,
+      "stated_count": 97,
+      "drawn_count": 97,
       "match": true,
       "names": [
         "Janos Pintz",
@@ -88,9 +86,11 @@
         "Cameron L. Stewart",
         "Jakob Glas",
         "Angel Kumchev",
+        "Soumyarup Banerjee",
         "Richard A. Mollin",
         "David Lowry-Duda",
         "Zhizhong Huang",
+        "Joshua Males",
         "Tao Zhan",
         "Antal Balog",
         "William Craig",
@@ -114,12 +114,12 @@
         "Joël Rivat",
         "Apoorva Panidapu"
       ],
-      "unplaced_no_geocode_in_region": 5
+      "unplaced_no_geocode_in_region": 3
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 36,
-      "drawn_count": 36,
+      "stated_count": 37,
+      "drawn_count": 37,
       "match": true,
       "names": [
         "Daniel A. Goldston",
@@ -151,6 +151,7 @@
         "Angel Kumchev",
         "Richard A. Mollin",
         "David Lowry-Duda",
+        "Joshua Males",
         "Alex Kontorovich",
         "Alexandru Zaharescu",
         "Jean-Marie De Koninck",
@@ -159,7 +160,7 @@
         "Tristan Freiberg",
         "Apoorva Panidapu"
       ],
-      "unplaced_no_geocode_in_region": 2
+      "unplaced_no_geocode_in_region": 1
     },
     {
       "file": "12_top100_europe.png",
@@ -207,8 +208,8 @@
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 21,
-      "drawn_count": 21,
+      "stated_count": 22,
+      "drawn_count": 22,
       "match": true,
       "names": [
         "Jinjiang Li",
@@ -225,6 +226,7 @@
         "Matt Visser",
         "Zhixin Liu",
         "Ritabrata Munshi",
+        "Soumyarup Banerjee",
         "Zhizhong Huang",
         "Tao Zhan",
         "Pan, Chengdong",
@@ -233,7 +235,7 @@
         "Yong-Gao Chen",
         "Huafeng Liu"
       ],
-      "unplaced_no_geocode_in_region": 1
+      "unplaced_no_geocode_in_region": 0
     },
     {
       "file": "14_top100_other.png",
@@ -253,6 +255,8 @@
     "verified:2026-06-15(Claude,web; main campus)": 5,
     "openalex": 14,
     "manual:wikipedia-coords 2026-06-19": 1,
-    "verified:2026-06-20(Claude,web)": 1
+    "verified:2026-06-20(Claude,web)": 1,
+    "https://openalex.org/I99729588:mgpschool2026-07-04": 1,
+    "https://openalex.org/I46247651:mgpschool2026-07-04": 1
   }
 }
