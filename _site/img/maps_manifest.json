@@ -251,8 +251,8 @@
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 74,
-    "verified:2026-06-15(Claude,web; main campus)": 5,
+    "legacy_gb_cache": 73,
+    "verified:2026-06-15(Claude,web; main campus)": 6,
     "openalex": 14,
     "manual:wikipedia-coords 2026-06-19": 1,
     "verified:2026-06-20(Claude,web)": 1,
