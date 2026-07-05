@@ -91,7 +91,7 @@ rank,name,name_ascii,institution,country,arxiv_rank,openalex_rank,zbmath_rank,ar
 90,V. N. Chubarikov,V. N. Chubarikov,Lomonosov Moscow State University,RU,,,63,,,,,,,,,,,,
 91,S. I. Dimitrov,S. I. Dimitrov,"Sofia University ""St. Kliment Ohridski""",BG,,,64,,,,,6,openalex,2017,2025,,,,
 92,Doychin Tolev,Doychin Tolev,"Sofia University ""St. Kliment Ohridski""",BG,113,,43,4,12,78,,10,openalex,1998,2017,,,,
-93,Fred B. Holt,Fred B. Holt,NA,NA,44,,139,6,6,6,,6,openalex,2013,2026,,,,
+93,Fred B. Holt,Fred B. Holt,-,-,44,,139,6,6,6,,6,openalex,2013,2026,,,,
 94,Nicolas Robles,Nicolas Robles,RAND Corporation,US,48,172,,6,9,8,,7,openalex,2015,2025,,,,
 95,Huafeng Liu,Huafeng Liu,Shandong Normal University,CN,,,65,,,,,55,openalex,2019,2019,,,,
 96,Ofir Gorodetsky,Ofir Gorodetsky,Technion - Israel Institute of Technology,IL,52,,,4,7,8,,5,openalex,2018,2024,,,,
