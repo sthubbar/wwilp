@@ -118,8 +118,8 @@
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 37,
-      "drawn_count": 37,
+      "stated_count": 36,
+      "drawn_count": 36,
       "match": true,
       "names": [
         "Daniel A. Goldston",
@@ -140,7 +140,6 @@
         "Jared Duker Lichtman",
         "Henryk Iwaniec",
         "K. Soundararajan",
-        "Imre Kátai",
         "Robert J. Lemke Oliver",
         "Will Sawin",
         "Roger C. Baker",
@@ -164,8 +163,8 @@
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 35,
-      "drawn_count": 35,
+      "stated_count": 36,
+      "drawn_count": 36,
       "match": true,
       "names": [
         "Janos Pintz",
@@ -186,6 +185,7 @@
         "Jörg Brüdern",
         "Yoichi Motohashi",
         "Kathrin Bringmann",
+        "Imre Kátai",
         "Christian Bernert",
         "Jean‐Marc Deshouillers",
         "J. P. Keating",
@@ -251,9 +251,9 @@
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 73,
+    "legacy_gb_cache": 75,
     "verified:2026-06-15(Claude,web; main campus)": 6,
-    "openalex": 14,
+    "openalex": 12,
     "manual:wikipedia-coords 2026-06-19": 1,
     "verified:2026-06-20(Claude,web)": 1,
     "https://openalex.org/I99729588:mgpschool2026-07-04": 1,
