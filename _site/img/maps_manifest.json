@@ -118,8 +118,8 @@
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 35,
-      "drawn_count": 35,
+      "stated_count": 36,
+      "drawn_count": 36,
       "match": true,
       "names": [
         "Daniel A. Goldston",
@@ -152,6 +152,7 @@
         "Joshua Males",
         "Alex Kontorovich",
         "Alexandru Zaharescu",
+        "Jiseong Kim",
         "Jean-Marie De Koninck",
         "Nicolas Robles",
         "H. J. Weber",
@@ -207,8 +208,8 @@
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 23,
-      "drawn_count": 23,
+      "stated_count": 22,
+      "drawn_count": 22,
       "match": true,
       "names": [
         "Jinjiang Li",
@@ -230,7 +231,6 @@
         "Zhizhong Huang",
         "Tao Zhan",
         "Pan, Chengdong",
-        "Jiseong Kim",
         "Kai-Man Tsang",
         "Yong-Gao Chen",
         "Huafeng Liu"
@@ -253,10 +253,10 @@
   "geocode_sources": {
     "legacy_gb_cache": 74,
     "verified:2026-06-15(Claude,web; main campus)": 6,
-    "openalex": 12,
+    "openalex": 11,
     "manual:wikipedia-coords 2026-06-19": 1,
     "verified:web (Claude,2026-07-11)": 1,
-    "verified:2026-06-20(Claude,web)": 1,
+    "verified:2026-06-20(Claude,web)": 2,
     "https://openalex.org/I99729588:mgpschool2026-07-04": 1,
     "https://openalex.org/I46247651:mgpschool2026-07-04": 1
   }
