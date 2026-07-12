@@ -5,9 +5,9 @@
   "n_unplaced_no_geocode": 3,
   "n_unplaced_no_institution": 0,
   "unplaced": [
-    "#63 Jean Lelis [Federal University of Uberlândia]",
-    "#86 Felix Sidokhine [-]",
-    "#93 Fred B. Holt [-]"
+    "#62 Jean Lelis [Federal University of Uberlândia]",
+    "#85 Felix Sidokhine [-]",
+    "#92 Fred B. Holt [-]"
   ],
   "maps": [
     {
@@ -34,7 +34,6 @@
         "Kevin Ford",
         "Gérald Tenenbaum",
         "Min Zhang",
-        "Marek Wolf",
         "Stephan Baier",
         "Peter D. T. A. Elliott",
         "Jianya Liu",
@@ -112,14 +111,15 @@
         "H. J. Weber",
         "Tristan Freiberg",
         "Joël Rivat",
-        "Apoorva Panidapu"
+        "Apoorva Panidapu",
+        "Enrico Bombieri"
       ],
       "unplaced_no_geocode_in_region": 3
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 36,
-      "drawn_count": 36,
+      "stated_count": 37,
+      "drawn_count": 37,
       "match": true,
       "names": [
         "Daniel A. Goldston",
@@ -157,14 +157,15 @@
         "Nicolas Robles",
         "H. J. Weber",
         "Tristan Freiberg",
-        "Apoorva Panidapu"
+        "Apoorva Panidapu",
+        "Enrico Bombieri"
       ],
       "unplaced_no_geocode_in_region": 1
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 36,
-      "drawn_count": 36,
+      "stated_count": 35,
+      "drawn_count": 35,
       "match": true,
       "names": [
         "Janos Pintz",
@@ -177,7 +178,6 @@
         "Alessandro Languasco",
         "Vivian Kuperberg",
         "Gérald Tenenbaum",
-        "Marek Wolf",
         "Etienne Fouvry",
         "Dieter Wolke",
         "Jori Merikoski",
@@ -251,10 +251,10 @@
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 74,
+    "legacy_gb_cache": 75,
     "verified:2026-06-15(Claude,web; main campus)": 6,
-    "openalex": 11,
     "manual:wikipedia-coords 2026-06-19": 1,
+    "openalex": 10,
     "verified:web (Claude,2026-07-11)": 1,
     "verified:2026-06-20(Claude,web)": 2,
     "https://openalex.org/I99729588:mgpschool2026-07-04": 1,
