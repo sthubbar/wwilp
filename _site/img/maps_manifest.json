@@ -118,15 +118,14 @@
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 36,
-      "drawn_count": 36,
+      "stated_count": 35,
+      "drawn_count": 35,
       "match": true,
       "names": [
         "Daniel A. Goldston",
         "Terence Tao",
         "Paul Pollack",
         "Trevor D. Wooley",
-        "Vivian Kuperberg",
         "Kevin Ford",
         "Peter D. T. A. Elliott",
         "Carl Pomerance",
@@ -175,6 +174,7 @@
         "D. R. Heath-Brown",
         "Glyn Harman",
         "Alessandro Languasco",
+        "Vivian Kuperberg",
         "Gérald Tenenbaum",
         "Marek Wolf",
         "Etienne Fouvry",
@@ -183,7 +183,6 @@
         "Lasse Grimmelt",
         "András Sárközy",
         "Jörg Brüdern",
-        "Yoichi Motohashi",
         "Kathrin Bringmann",
         "Imre Kátai",
         "Christian Bernert",
@@ -208,8 +207,8 @@
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 22,
-      "drawn_count": 22,
+      "stated_count": 23,
+      "drawn_count": 23,
       "match": true,
       "names": [
         "Jinjiang Li",
@@ -219,6 +218,7 @@
         "Jianya Liu",
         "Tianze Wang",
         "Valeriia Starichkova",
+        "Yoichi Motohashi",
         "Hongze Li",
         "D. Suryanarayana",
         "Ben Kane",
@@ -251,10 +251,11 @@
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 75,
+    "legacy_gb_cache": 74,
     "verified:2026-06-15(Claude,web; main campus)": 6,
     "openalex": 12,
     "manual:wikipedia-coords 2026-06-19": 1,
+    "verified:web (Claude,2026-07-11)": 1,
     "verified:2026-06-20(Claude,web)": 1,
     "https://openalex.org/I99729588:mgpschool2026-07-04": 1,
     "https://openalex.org/I46247651:mgpschool2026-07-04": 1
