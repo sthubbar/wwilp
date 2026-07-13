@@ -6,8 +6,8 @@
   "n_unplaced_no_institution": 0,
   "unplaced": [
     "#62 Jean Lelis [Federal University of Uberlândia]",
-    "#85 Felix Sidokhine [-]",
-    "#92 Fred B. Holt [-]"
+    "#84 Felix Sidokhine [-]",
+    "#91 Fred B. Holt [-]"
   ],
   "maps": [
     {
@@ -95,7 +95,6 @@
         "William Craig",
         "George Greaves",
         "H. A. Helfgott",
-        "Pan, Chengdong",
         "Alex Kontorovich",
         "Alexandru Zaharescu",
         "Jiseong Kim",
@@ -112,7 +111,8 @@
         "Tristan Freiberg",
         "Joël Rivat",
         "Apoorva Panidapu",
-        "Enrico Bombieri"
+        "Enrico Bombieri",
+        "Pankaj Vishe"
       ],
       "unplaced_no_geocode_in_region": 3
     },
@@ -164,8 +164,8 @@
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 35,
-      "drawn_count": 35,
+      "stated_count": 36,
+      "drawn_count": 36,
       "match": true,
       "names": [
         "Janos Pintz",
@@ -202,14 +202,15 @@
         "V. N. Chubarikov",
         "S. I. Dimitrov",
         "Doychin Tolev",
-        "Joël Rivat"
+        "Joël Rivat",
+        "Pankaj Vishe"
       ],
       "unplaced_no_geocode_in_region": 0
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 22,
-      "drawn_count": 22,
+      "stated_count": 21,
+      "drawn_count": 21,
       "match": true,
       "names": [
         "Jinjiang Li",
@@ -230,7 +231,6 @@
         "Soumyarup Banerjee",
         "Zhizhong Huang",
         "Tao Zhan",
-        "Pan, Chengdong",
         "Kai-Man Tsang",
         "Yong-Gao Chen",
         "Huafeng Liu"
