@@ -10,12 +10,12 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="https://cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
 <meta property="og:title" content="Methodology - Who&#x27;s Who in Landau&#x27;s Problems Research">
-<meta property="og:description" content="A directory of the researchers most active on Landau&#x27;s four classical prime problems, ranked from arXiv preprint output, OpenAlex citation data, and zbMATH MSC classifications.">
+<meta property="og:description" content="A directory of the researchers most active on Landau&#x27;s four classical prime problems, consolidated from the four member directories for Goldbach, twin primes, Legendre&#x27;s conjecture and n2+1 primes.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://wwilp.org/methodology">
 <meta property="og:site_name" content="Who&#x27;s Who in Landau&#x27;s Problems Research">
 <meta name="twitter:card" content="summary">
-<meta name="description" content="A directory of the researchers most active on Landau&#x27;s four classical prime problems, ranked from arXiv preprint output, OpenAlex citation data, and zbMATH MSC classifications.">
+<meta name="description" content="A directory of the researchers most active on Landau&#x27;s four classical prime problems, consolidated from the four member directories for Goldbach, twin primes, Legendre&#x27;s conjecture and n2+1 primes.">
 <style id="site-search-css">
 .nav-row{display:flex;align-items:flex-end;flex-wrap:wrap;gap:0.6rem 1.2rem;margin-top:0.6rem;}
 .nav-row nav{margin-top:0;}
@@ -106,107 +106,106 @@
 <p class="subtitle">How the rankings are built</p>
 
 <p>This page documents how the Top 100 list is constructed, what is in the data, and what is deliberately out.
-The Landau-problems ranking uses a three-source composite design: arXiv preprint output, OpenAlex topical
-citations, and zbMATH MSC classifications. Because the four Landau problems draw on the same analytic
-techniques, the term set for this site is the union of the four problem-specific sets: Goldbach, twin primes,
-Legendre, and n<sup>2</sup>+1, together with the shared methods (circle method, prime gaps,
-Hardy-Littlewood, Chen's theorem, singular series, almost primes) that support all four.</p>
+This site is an <strong>umbrella directory</strong>, and its ranking is a <strong>consolidation</strong> of the
+four member directories rather than a separate classification of papers. The four members are
+<a href="https://wwigb.org/">Goldbach</a>, <a href="https://wwitp.org/">twin primes</a>,
+<a href="https://wwileg.org/">Legendre's conjecture</a>, and <a href="https://wwin2p1.org/">n<sup>2</sup>+1 primes</a>.
+Each member site ranks researchers on its own problem from arXiv preprint output, OpenAlex topical citations, and
+zbMATH MSC classifications. This site fuses those four rankings into one.</p>
+
+<h2>The consolidation</h2>
+
+<p>The input is the <strong>served roster</strong> of each member directory, meaning its Top 100 plus its
+published next 100. The four rosters are fused by <strong>reciprocal rank fusion</strong>. For each researcher,
+summed over the member problems whose roster lists them:</p>
+
+<p class="callout"><code>score = sum of 1 / (10 + rank on that member list)</code></p>
+
+<p>A higher score ranks higher. Ties break on the researcher's best single member rank, then on name, so an
+identical set of member rosters always produces an identical umbrella order.</p>
+
+<p>Two properties follow by construction. First, <strong>nobody appears here who is not served on at least one
+member problem</strong>: every person on this list has already passed a member site's relevance gate, its
+identity resolution, its roster curation, and its quality-assurance suite. Second, <strong>breadth counts but
+does not dominate</strong>: a researcher on three or four member lists gains ground on a researcher of similar
+standing on one, while a genuine single-problem specialist ranked near the top of that problem still ranks
+highly here.</p>
+
+<h2>Why the constant is 10</h2>
+
+<p>The constant added to each rank sets how much a second, third or fourth member listing is worth against one
+strong listing. It was chosen by measurement, not by taste. At <strong>10</strong>, the top of the list follows
+the member evidence, every canonical figure of the four problems stays inside the top 100, 16 single-problem
+specialists still hold top-100 places, and 84 of the top 100 appear on two or more member lists. The safe band
+runs from about 5 to about 20. Push the constant to 45 and the ordering at the very top flips to a breadth-only
+result; by 60 the single-problem share of the top 100 collapses toward zero, which would wrongly exclude a
+researcher who is first on one problem and absent from the other three. That failure mode is the reason the
+value is a deliberate, documented choice.</p>
+
+<h2>What the columns mean</h2>
+
+<p>The Top 100 table shows one column per member problem: <strong>Gold</strong> (Goldbach),
+<strong>Twin</strong> (twin primes), <strong>Leg</strong> (Legendre's conjecture), and
+<strong>n2+1</strong> (n<sup>2</sup>+1 primes). The cell holds the researcher's rank on that member directory.
+A <strong>dash</strong> is a fact, not a gap: that member directory does not list the researcher. The
+<strong>Source</strong> column names the member problems the researcher appears on, in the same order.
+Because this site does not classify papers itself, it publishes no arXiv, OpenAlex or zbMATH rank of its own;
+those ranks live on the four member sites, where they are measured.</p>
+
+<p>The remaining facts on a profile page (institution, country, active years, h-index, PhD year, topical work
+and citation counts) come from the same verified people store the member sites use. Where a topical count is
+shown, it is the count measured on the member problem on which the researcher ranks highest.</p>
 
 <h2>Data sources</h2>
 
 <table>
 <thead><tr><th>Source</th><th>What it gives</th><th>Limitations</th></tr></thead>
 <tbody>
-<tr><td><strong>arXiv</strong> (math.NT + math.CO)</td><td>Preprint-level: titles, abstracts, authors, dates, co-author graph</td><td>Biased toward people who post preprints. Senior figures who publish only in journals are undercounted.</td></tr>
-<tr><td><strong>OpenAlex</strong></td><td>Author-level: paper count, citations, affiliations, country</td><td>Concept tagging is noisy in math; surname-only matching can misidentify. Broad terms pull in authors with only tangential connections to the Landau problems.</td></tr>
-<tr><td><strong>zbMATH Open</strong></td><td>Curated math review database; editor-assigned MSC classification (we use five core classes)</td><td>The REST API can be slow; coverage otherwise excellent, especially for older and non-Western mathematicians.</td></tr>
+<tr><td><strong>wwigb.org</strong> (Goldbach)</td><td>The served Goldbach roster and each researcher's rank on it</td><td>Inherits the Goldbach site's own coverage limits.</td></tr>
+<tr><td><strong>wwitp.org</strong> (twin primes)</td><td>The served twin-primes roster and ranks</td><td>Inherits the twin-primes site's own coverage limits.</td></tr>
+<tr><td><strong>wwileg.org</strong> (Legendre)</td><td>The served Legendre roster and ranks</td><td>A smaller roster, so a Legendre rank is a coarser signal than a Goldbach rank.</td></tr>
+<tr><td><strong>wwin2p1.org</strong> (n<sup>2</sup>+1)</td><td>The served n<sup>2</sup>+1 roster and ranks</td><td>Inherits the n<sup>2</sup>+1 site's own coverage limits.</td></tr>
+<tr><td><strong>Math Genealogy Project</strong></td><td>Advisor-student trees, PhD year</td><td>Dissertation-era affiliations only; gaps for some non-Western mathematicians.</td></tr>
 </tbody>
 </table>
 
-<h2>Pipeline</h2>
-
-<p class="callout"><strong>Title-weighting.</strong> A paper can mention Goldbach or twin primes without being about them.
-To separate genuine work from passing mentions, the arXiv and OpenAlex pipelines weight a keyword match by where it appears:
-a match in the paper <em>title</em> counts at full weight,
-and a match only in the <em>abstract</em> counts at half (a factor of 0.5). zbMATH is not title-weighted,
-because its documents are classified by human editors, so the subject class itself is the relevance signal.</p>
-
-<ol>
-<li><strong>arXiv pull</strong>: 17 search terms covering the four Landau problems and shared methods
-(Goldbach conjecture, twin primes, bounded gaps between primes, small gaps between primes, Legendre's conjecture,
-primes in short intervals, prime gaps, Hardy-Littlewood, prime k-tuples, circle method, distribution of prime
-numbers, Maynard-Tao, exceptional set, consecutive primes, almost prime, singular series, and Chen's theorem)
-restricted to the math.NT and math.CO categories. Each paper's contribution to an author is title-weighted
-as above. A co-authorship graph is built and eigenvector centrality is the second factor in an arXiv composite
-of <code>0.60 * pr(weighted papers) + 0.40 * pr(eigen)</code>. Authors with at least 3 topical papers qualify.</li>
-
-<li><strong>OpenAlex pull</strong>: the same phrase queries, with an author cap of 10 per work to remove large
-collaborative papers only tangentially related to the Landau problems. Works and their citations are title-weighted
-as above. Composite: <code>0.60 * pr(weighted works) + 0.40 * pr(weighted citations)</code>.</li>
-
-<li><strong>zbMATH pull</strong>: documents tagged with any of the five core MSC classes:
-11P32 (Goldbach-type theorems; other additive questions involving primes),
-11N05 (distribution of primes),
-11N35 (Goldbach-type theorems and sieve methods for additive questions),
-11N36 (applications of sieves),
-and 11N32 (primes represented by polynomials; other multiplicative structures of polynomial values).
-The editor-assigned MSC classes correct a systematic gap in the other sources: pre-1995 number theorists
-and specialists who publish in journals with sparse arXiv presence.
-Over 11,000 zbMATH documents were collected across the five classes.</li>
-
-<li><strong>Merge and scoring</strong>: the rankings are surname-deduplicated and joined.
-The available ranks are combined with a <strong>weighted order statistic</strong>:
-each researcher's ranks are sorted and weighted <code>0.70</code> on the best, <code>0.20</code> on the middle,
-and <code>0.10</code> on the worst. Sorting before weighting means the method rewards excellence in any one
-pipeline, while a researcher strong across all of them still finishes ahead. Lower combined score ranks higher.</li>
-
-<li><strong>Estimating a missing rank (interpolation)</strong>: a researcher ranked by only one of the pipelines
-is not given a flat penalty. To estimate a missing rank, we order the whole pool by a pipeline the researcher
-does appear in, then walk outward to the two nearest researchers above and below who carry a real rank in the
-missing pipeline, and average those (up to four) values. The <code>0.70</code> top weight may only land on a
-<em>measured</em> rank, so an estimate can support a score but can never be the headline signal.
-Estimated ranks show in [square brackets] on the Top 100 table; measured ranks show plain.</li>
-
-<li><strong>Hand-curated edits</strong>: an exclusions file removes researchers the automated pipeline
-surfaced in error. The merge does not hand-place any researcher; everyone earns their rank from the
-pipeline scores.</li>
-</ol>
-
-<h2>MSC class notes</h2>
-<p>The five zbMATH classes span all four Landau problems.
-11P32 and 11N35 cover Goldbach and circle-method additive questions.
-11N05 covers prime distribution broadly (relevant to Legendre and twin primes).
-11N36 covers sieve applications (relevant to twin primes, almost-prime analogues of all four problems).
-11N32 covers primes represented by polynomials (the n<sup>2</sup>+1 problem specifically).</p>
+<p>Each member site's own pipeline (title-weighted arXiv term search, OpenAlex phrase queries with an author cap,
+zbMATH MSC classes, a core-relevance gate, and a weighted order statistic over the three source ranks) is
+documented on that site's methodology page. This site adds no new classification step.</p>
 
 <h2>What is not in this list</h2>
 <ul>
-<li><strong>Researchers without a strong digital footprint.</strong> The pipeline indexes arXiv well and
-OpenAlex moderately; the zbMATH layer corrects for journal-only publishing.</li>
-<li><strong>Single-breakthrough authors.</strong> The ranking measures sustained output.
-A researcher whose contribution to the Landau-problems family is one landmark paper will rank lower than
-a productive researcher with many related papers.</li>
-<li><strong>Adjacent topics.</strong> Some of the 100 work mainly on related questions (primes in arithmetic
-progressions, the Riemann hypothesis, multiplicative number theory) rather than the four Landau problems
-directly. Title-weighting reduces, but does not eliminate, this adjacency.</li>
+<li><strong>Researchers not served on any of the four member problems.</strong> This is the cost of
+consolidation, and it is deliberate. A researcher whose work is adjacent to the family (Waring's problem,
+primes in arithmetic progressions, additive combinatorics) but who does not reach a member roster no longer
+appears here, even where the earlier union-of-terms ranking surfaced them.</li>
+<li><strong>Single-breakthrough authors.</strong> The member rankings measure sustained output, and the
+consolidation inherits that.</li>
+<li><strong>Subjective importance.</strong> We rank by measured output and breadth across the family, not by
+depth of insight.</li>
 </ul>
 
 <h2>Sources of error</h2>
 <ul>
-<li><strong>Surname matching is fragile.</strong> Mathematicians with common surnames may be conflated.
-The pipeline handles the worst cases but misses are possible.</li>
-<li><strong>The umbrella scope is wide.</strong> Terms like "circle method" and "exceptional set" pull
-in researchers whose primary focus is adjacent (for example, Waring's problem or additive combinatorics)
-rather than any of the four Landau problems directly. Title-weighting reduces but does not eliminate this.</li>
-<li><strong>Single breakthrough papers do not score well.</strong> The ranking measures sustained output.
-A researcher whose contribution to the field is one landmark paper will rank lower than a productive
-researcher with many related papers.</li>
+<li><strong>Every member-site error propagates.</strong> A misidentified researcher or a stale affiliation on a
+member site arrives here unchanged. The corresponding upside is that a correction on a member site propagates
+here too.</li>
+<li><strong>Roster sizes differ.</strong> The four member rosters are not the same length, so rank 60 does not
+mean the same thing on each list. Reciprocal rank fusion weights the top of every list most heavily, which
+limits but does not remove the effect.</li>
+<li><strong>Breadth is not depth.</strong> A researcher who has written once on each of the four problems can
+outrank a specialist. The member-rank columns are shown precisely so a reader can see which case they are
+looking at.</li>
 <li><strong>The Top 100 is not a verdict.</strong> It is a starting point. Use it alongside MathSciNet,
 your advisor, and your own reading.</li>
 </ul>
 
 <h2>Acknowledgments</h2>
-<p>Data sources: <a href="https://arxiv.org">arXiv</a>, <a href="https://openalex.org">OpenAlex</a>, <a href="https://zbmath.org">zbMATH Open</a>.</p>
+<p>Member directories: <a href="https://wwigb.org/">wwigb.org</a>, <a href="https://wwitp.org/">wwitp.org</a>,
+<a href="https://wwileg.org/">wwileg.org</a>, <a href="https://wwin2p1.org/">wwin2p1.org</a>.
+Underlying data sources: <a href="https://arxiv.org">arXiv</a>, <a href="https://openalex.org">OpenAlex</a>,
+<a href="https://zbmath.org">zbMATH Open</a>,
+<a href="https://genealogy.math.ndsu.nodak.edu">Mathematics Genealogy Project</a>.</p>
 
 </main>
 <footer>
