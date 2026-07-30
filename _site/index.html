@@ -70,14 +70,25 @@
    Institution, and each is right-aligned. Padding is 4px both sides (header keeps
    16px on the right for the sort arrow) so the tightened columns are not cramped
    against each other (Steve 2026-06-30). */
-#top100tbl th.dt-type-numeric,#top100tbl th.rtcol,#institutions th.dt-type-numeric,#institutions th.rtcol{text-align:right;padding-left:4px;padding-right:24px;}
-#top100tbl td.dt-type-numeric,#top100tbl td.rtcol,#institutions td.dt-type-numeric,#institutions td.rtcol{text-align:right;padding-left:4px;padding-right:4px;}
+/* NUMERIC COLUMNS ARE SERVER-TAGGED .num-col (Steve 2026-07-30). dt-type-numeric
+   alone was not enough: DataTables only auto-classes a column numeric when EVERY
+   value parses as a number, so aX / OA / zM (which hold [bracketed] interpolated
+   estimates and curated dashes), h (dashes and blanks) and YSP (dashes) never
+   earned it, and applying an explicit column 'type' in columnDefs (dash-abs /
+   ysp-abs, needed so dashes sink in both sort directions) suppresses the
+   auto-detection outright. Those columns therefore rendered LEFT-justified. The
+   engine now emits .num-col on the th AND every td of each numeric column, so
+   header and digits align together and a value like [29] lines up with a plain
+   integer. dt-type-numeric is kept in the selector for every other numeric
+   column (# and the institutions table counts). */
+#top100tbl th.dt-type-numeric,#top100tbl th.num-col,#top100tbl th.rtcol,#institutions th.dt-type-numeric,#institutions th.num-col,#institutions th.rtcol{text-align:right;padding-left:4px;padding-right:24px;}
+#top100tbl td.dt-type-numeric,#top100tbl td.num-col,#top100tbl td.rtcol,#institutions td.dt-type-numeric,#institutions td.num-col,#institutions td.rtcol{text-align:right;padding-left:4px;padding-right:4px;}
 /* No width:1px shrink-pin here: with autoWidth:false the browser's native table
    layout gives each column its true content-width minimum (collapses when the
    table is narrow) and shares any surplus proportionally across all columns when
    the table is wide. nowrap only, so short values stay on one line. (Steve test
    2026-06-30.) */
-#top100tbl th.dt-type-numeric,#top100tbl td.dt-type-numeric,#top100tbl th.rtcol,#top100tbl td.rtcol,#institutions th.dt-type-numeric,#institutions td.dt-type-numeric,#institutions th.rtcol,#institutions td.rtcol{white-space:nowrap;}
+#top100tbl th.dt-type-numeric,#top100tbl td.dt-type-numeric,#top100tbl th.num-col,#top100tbl td.num-col,#top100tbl th.rtcol,#top100tbl td.rtcol,#institutions th.dt-type-numeric,#institutions td.dt-type-numeric,#institutions th.num-col,#institutions td.num-col,#institutions th.rtcol,#institutions td.rtcol{white-space:nowrap;}
 .col-glossary{margin:0.2rem 0 0.7rem 0;}
 .col-glossary li{margin:0.12rem 0;}
 .search-count{color:#555;font-size:0.95rem;margin:0.5rem 0 0.6rem 0;}
@@ -108,7 +119,7 @@
 <div class="content-block">
 <p>At the 1912 International Congress of Mathematicians, Edmund Landau listed four problems about primes that mathematics could not yet prove. Now known as <strong>Landau's problems</strong>, they are the Goldbach conjecture, the twin prime conjecture, Legendre's conjecture, and the conjecture that infinitely many primes have the form n<sup>2</sup>+1. <strong>Every one is still open.</strong></p>
 <p>This site is the umbrella directory for all four problems. It catalogs the <strong>Top 100</strong> researchers across the family, with their institutions, and offers a <a href="reading-list">curated reading list</a>.</p>
-<p>The ranking <strong>consolidates the four member directories</strong>: <a href="https://wwigb.org/">Goldbach</a>, <a href="https://wwitp.org/">twin primes</a>, <a href="https://wwileg.org/">Legendre</a>, <a href="https://wwin2p1.org/">n<sup>2</sup>+1</a>. Each person's member ranks fuse into one, and the table shows all four.</p>
+<p>The ranking <strong>consolidates the four member directories</strong>, and the table shows a column per member in this order: <a href="https://wwigb.org/"><code>gb</code></a> Goldbach, <a href="https://wwileg.org/"><code>leg</code></a> Legendre, <a href="https://wwin2p1.org/"><code>n2p1</code></a> n<sup>2</sup>+1, <a href="https://wwitp.org/"><code>tp</code></a> twin primes.</p>
 </div>
 
 
