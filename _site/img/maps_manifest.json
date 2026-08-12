@@ -249,10 +249,11 @@
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 84,
+    "legacy_gb_cache": 83,
     "verified:2026-06-15(Claude,web; main campus)": 5,
     "manual:wikipedia-coords 2026-06-19": 1,
     "verified:2026-06-20(Claude,web)": 2,
+    "verified:web (Claude,2026-07-11)": 1,
     "openalex": 3
   }
 }

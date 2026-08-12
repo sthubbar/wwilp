@@ -66,7 +66,7 @@ rank,name,name_ascii,institution,country,gb_rank,leg_rank,n2p1_rank,tp_rank,memb
 65,Cameron L. Stewart,Cameron L. Stewart,University of Waterloo,CA,83,44,52,,gb+leg+n2p1,,1,8,,20,openalex,1985,2021,,,,
 66,Michael Th. Rassias,Michael Th. Rassias,Hellenic Military Academy,GR,95,53,,42,gb+leg+tp,5,13,25,,24,openalex,2015,2024,,,,
 67,Cem Yalçın Yıldırım,Cem Yalcin Yildirim,Boğaziçi University,TR,,61,,34,gb+leg+tp,10,18,374,,,,1998,2020,,,,
-68,Timothy S. Trudgian,Timothy S. Trudgian,Australian National University,AU,86,82,80,86,gb+leg+n2p1+tp,2,1,1,,,,2013,2026,,,,
+68,Timothy S. Trudgian,Timothy S. Trudgian,UNSW Canberra,AU,86,82,80,86,gb+leg+n2p1+tp,2,1,1,,,,2013,2026,,,,
 69,Jiseong Kim,Jiseong Kim,University of Mississippi,US,66,25,,,gb+leg,5,,,,20,openalex,2021,2026,,,,
 70,Helmut Maier,Helmut Maier,Universität Ulm,DE,94,50,,59,gb+leg+tp,1,8,195,,18,openalex,1981,2023,,,,
 71,Lasse Grimmelt,Lasse Grimmelt,University of Cambridge,GB,48,,91,66,gb+n2p1+tp,8,9,9,,2,openalex,2018,2026,,,,
