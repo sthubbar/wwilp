@@ -6,8 +6,8 @@
   "n_unplaced_no_institution": 0,
   "unplaced": [
     "#52 Adrian Dudek [University of Queensland]",
-    "#89 Fred B. Holt [Independent]",
-    "#90 Aled Walker [Kings College London]"
+    "#88 Fred B. Holt [Independent]",
+    "#89 Aled Walker [Kings College London]"
   ],
   "maps": [
     {
@@ -92,7 +92,6 @@
         "Olivier Ramaré",
         "Giovanni Coppola",
         "Ben Green",
-        "George Greaves",
         "Régis de la Bretèche",
         "Gérald Tenenbaum",
         "Imre Kátai",
@@ -112,7 +111,8 @@
         "Peter Sarnak",
         "M. B. Milinovich",
         "Valeriia Starichkova",
-        "Liqun Hu"
+        "Liqun Hu",
+        "Lior Bary-Soroker"
       ],
       "unplaced_no_geocode_in_region": 3
     },
@@ -162,8 +162,8 @@
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 40,
-      "drawn_count": 40,
+      "stated_count": 39,
+      "drawn_count": 39,
       "match": true,
       "names": [
         "Janos Pintz",
@@ -196,7 +196,6 @@
         "Olivier Ramaré",
         "Giovanni Coppola",
         "Ben Green",
-        "George Greaves",
         "Régis de la Bretèche",
         "Gérald Tenenbaum",
         "Imre Kátai",
@@ -240,22 +239,23 @@
     },
     {
       "file": "14_top100_other.png",
-      "stated_count": 2,
-      "drawn_count": 2,
+      "stated_count": 3,
+      "drawn_count": 3,
       "match": true,
       "names": [
         "Ofir Gorodetsky",
-        "Efrat Bank"
+        "Efrat Bank",
+        "Lior Bary-Soroker"
       ],
       "unplaced_no_geocode_in_region": 0
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 85,
+    "legacy_gb_cache": 86,
     "verified:2026-06-15(Claude,web; main campus)": 5,
     "https://openalex.org/I197681013:mgpschool2026-07-04": 1,
     "verified:2026-06-20(Claude,web)": 2,
     "verified:web (Claude,2026-07-11)": 2,
-    "openalex": 2
+    "openalex": 1
   }
 }
