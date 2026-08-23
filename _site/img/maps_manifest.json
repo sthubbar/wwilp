@@ -1,10 +1,11 @@
 {
   "site": "landau",
   "n_top": 100,
-  "n_placed": 97,
-  "n_unplaced_no_geocode": 3,
+  "n_placed": 96,
+  "n_unplaced_no_geocode": 4,
   "n_unplaced_no_institution": 0,
   "unplaced": [
+    "#11 Runbo Li [The High School Affiliated to Renmin University of China]",
     "#49 Adrian Dudek [University of Queensland]",
     "#89 Fred B. Holt [Independent]",
     "#90 Aled Walker [Kings College London]"
@@ -12,8 +13,8 @@
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 97,
-      "drawn_count": 97,
+      "stated_count": 96,
+      "drawn_count": 96,
       "match": true,
       "names": [
         "Janos Pintz",
@@ -26,7 +27,6 @@
         "John B. Friedlander",
         "Joni Teräväinen",
         "Stephan Baier",
-        "Runbo Li",
         "Carl Pomerance",
         "Paul Pollack",
         "Alessandro Languasco",
@@ -114,19 +114,18 @@
         "Liqun Hu",
         "Lior Bary-Soroker"
       ],
-      "unplaced_no_geocode_in_region": 3
+      "unplaced_no_geocode_in_region": 4
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 35,
-      "drawn_count": 35,
+      "stated_count": 34,
+      "drawn_count": 34,
       "match": true,
       "names": [
         "Terence Tao",
         "Daniel A. Goldston",
         "Henryk Iwaniec",
         "John B. Friedlander",
-        "Runbo Li",
         "Carl Pomerance",
         "Paul Pollack",
         "Trevor D. Wooley",
@@ -235,7 +234,7 @@
         "Valeriia Starichkova",
         "Liqun Hu"
       ],
-      "unplaced_no_geocode_in_region": 1
+      "unplaced_no_geocode_in_region": 2
     },
     {
       "file": "14_top100_other.png",
@@ -251,7 +250,7 @@
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 86,
+    "legacy_gb_cache": 85,
     "verified:2026-06-15(Claude,web; main campus)": 5,
     "https://openalex.org/I197681013:mgpschool2026-07-04": 1,
     "verified:2026-06-20(Claude,web)": 2,

@@ -9,7 +9,7 @@ rank,name,name_ascii,institution,country,gb_rank,leg_rank,n2p1_rank,tp_rank,memb
 8,John B. Friedlander,John B. Friedlander,University of Toronto,CA,79,7,2,8,gb+leg+n2p1+tp,2,1,0,,34,openalex,1991,2022,,,,
 9,Joni Teräväinen,Joni Teravainen,University of Cambridge,GB,8,17,26,6,gb+leg+n2p1+tp,17,24,79,,9,openalex,2016,2026,,,,
 10,Stephan Baier,Stephan Baier,Ramakrishna Mission Vivekananda Educational and Research Institute,IN,17,29,6,22,gb+leg+n2p1+tp,12,1,10,,14,openalex,2000,2025,,,,
-11,Runbo Li,Runbo Li,University of Michigan,US,42,9,15,11,gb+leg+n2p1+tp,5,13,5,,,,2023,2026,,,,
+11,Runbo Li,Runbo Li,The High School Affiliated to Renmin University of China,CN,42,9,15,11,gb+leg+n2p1+tp,5,13,5,,,,2023,2026,,,,
 12,Carl Pomerance,Carl Pomerance,Dartmouth College,US,44,11,11,25,gb+leg+n2p1+tp,2,4,10,,39,openalex,1989,2026,,,,
 13,Paul Pollack,Paul Pollack,University of Georgia,US,80,18,12,10,gb+leg+n2p1+tp,11,18,123,,13,openalex,2008,2021,,,,
 14,Alessandro Languasco,Alessandro Languasco,University of Padua,IT,16,10,,9,gb+leg+tp,13,24,128,,12,openalex,1994,2021,,,,
