@@ -31,7 +31,7 @@ rank,name,name_ascii,institution,country,gb_rank,leg_rank,n2p1_rank,tp_rank,memb
 30,R. C. Vaughan,R. C. Vaughan,Pennsylvania State University,US,10,,19,,gb+n2p1,,13,875,,35,openalex,1972,2025,,,,
 31,Alberto Perelli,Alberto Perelli,University of Genoa,IT,37,31,59,37,gb+leg+n2p1+tp,3,19,243,,20,openalex,1982,2019,,,,
 32,Angel Kumchev,Angel Kumchev,Towson University,US,31,44,33,64,gb+leg+n2p1+tp,6,15,280,,12,openalex,1996,2022,,,,
-33,Efthymios Sofos,Efthymios Sofos,University of Glasgow,GB,92,89,8,,gb+leg+n2p1,5,6,8,,7,openalex,2018,2026,,,,
+33,Efthymios Sofos,Efthymios Sofos,University of Rome Tor Vergata,IT,92,89,8,,gb+leg+n2p1,5,6,8,,7,openalex,2018,2026,,,,
 34,Roger C. Baker,Roger C. Baker,Brigham Young University,US,26,26,,48,gb+leg+tp,6,13,82,,34,openalex,1982,2016,,,,
 35,Min Zhang,Min Zhang,Beijing Information Science and Technology University,CN,5,,,,gb,13,,,,44,openalex,2017,2026,,,,
 36,Ofir Gorodetsky,Ofir Gorodetsky,Technion - Israel Institute of Technology,IL,,14,,20,leg+tp,7,8,30,,5,openalex,2018,2024,,,,
